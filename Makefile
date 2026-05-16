@@ -12,5 +12,5 @@ smallymouse.elf: ${OBJS}
 	${CC} -mmcu=at90usb1287 -o smallymouse.elf ${OBJS}
 
 install: smallymouse.hex
-  dfu-programmer at90usb1287 erase --force
+	dfu-programmer at90usb1287 erase --force
 	dfu-programmer at90usb1287 flash smallymouse.hex

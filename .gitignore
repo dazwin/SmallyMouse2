@@ -271,5 +271,10 @@ paket-files/
 __pycache__/
 *.pyc
 
+# AVR build artifacts
+*.elf
+*.hex
+*.o
+
 # Cake - Uncomment if you are using it
 # tools/
